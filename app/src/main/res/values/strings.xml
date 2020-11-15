@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">homepi</string>
+    <string name="choose_audio_device">Alege dispozitivul la care vrei sa asculti:</string>
+</resources>
