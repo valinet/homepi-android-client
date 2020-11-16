@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
                             @Override
                             public void run() {
                                 if (port == 80) {
+                                    ips = host.toString();
                                     view.loadUrl("http://" + host.toString());
                                 }
                             }
