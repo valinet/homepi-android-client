@@ -72,7 +72,8 @@ public class MainActivity extends AppCompatActivity {
                         "style.type = 'text/css';" +
                         // Tell the browser to BASE64-decode the string into your script !!!
                         "style.innerHTML = '.container { background-color: #ffffff }';" +
-                        "parent.appendChild(style)" +
+                        "parent.appendChild(style);" +
+                        "document.getElementsByTagName('h2').item(0).innerHTML = '<br>homepi+';" +
                         "})()");
             }
         });
